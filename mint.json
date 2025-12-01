@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Autocalls",
+  "name": "myCalls",
   "logo": {
-    "dark": "/resources/logo/dark.png",
-    "light": "/resources/logo/light.png"
+    "dark": "/resources/logo/logo-png-mycalls-alb.png",
+    "light": "/resources/logo/logo-png-mycalls.png"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -24,14 +24,14 @@
   },
   "topbarLinks": [{
     "name": "Home",
-    "url": "https://autocalls.ai"
+    "url": "https://mycalls.ro"
   }, {
     "name": "Support",
-    "url": "https://autocalls.ai/contact"
+    "url": "https://mycalls.ro/contact"
   }],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.autocalls.ai"
+    "url": "https://app.mycalls.ro"
   },
   "anchors": [{
     "name": "No-Code Automation",
@@ -57,7 +57,7 @@
   "navigation": [{
       "group": "Introduction",
       "pages": [
-        "introduction/what-is-autocalls",
+        "introduction/what-is-mycalls",
         "introduction/how-it-works",
         "introduction/key-terminology"
       ]
@@ -307,7 +307,7 @@
     {
       "group": "Calls Related",
       "pages": [
-        "automation-platform/calls-related/autocalls-tool",
+        "automation-platform/calls-related/mycalls-tool",
         "automation-platform/calls-related/common-integrations",
         "automation-platform/calls-related/sms-capabilities"
       ]
@@ -332,10 +332,10 @@
     }
   ],
   "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/autocalls-ai"
+    "linkedin": "https://www.linkedin.com/company/mycalls-ro"
   },
   "api": {
-    "baseUrl": "https://app.autocalls.ai/api/",
+    "baseUrl": "https://app.mycalls.ro/api/",
     "auth": {
       "method": "bearer"
     }
